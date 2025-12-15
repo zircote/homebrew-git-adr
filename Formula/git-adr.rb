@@ -4,10 +4,11 @@ class GitAdr < Formula
   desc "Manage Architecture Decision Records using git notes"
   homepage "https://github.com/zircote/git-adr"
   url "https://files.pythonhosted.org/packages/source/g/git-adr/git_adr-0.1.0.tar.gz"
-  sha256 "PLACEHOLDER_SHA256"  # TODO: Update with actual SHA256 on release
+  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
   license "MIT"
   head "https://github.com/zircote/git-adr.git", branch: "main"
 
+  depends_on "libyaml"
   depends_on "python@3.12"
 
   resource "typer" do
