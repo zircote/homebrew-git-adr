@@ -26,13 +26,9 @@ class GitAdr < Formula
 
   def install
     # PyInstaller onedir mode: binary + _internal directory must stay together
-    if OS.mac? && Hardware::CPU.arm?
-      libexec.install "git-adr-macos-arm64/git-adr"
-      libexec.install "git-adr-macos-arm64/_internal"
-    elsif OS.linux? && Hardware::CPU.intel?
-      libexec.install "git-adr-linux-x86_64/git-adr"
-      libexec.install "git-adr-linux-x86_64/_internal"
-    end
+    # Note: Homebrew auto-strips the single top-level directory from tarballs
+    libexec.install "git-adr"
+    libexec.install "_internal"
     bin.install_symlink libexec/"git-adr"
   end
 
