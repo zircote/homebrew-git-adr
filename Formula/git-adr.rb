@@ -4,8 +4,8 @@ class GitAdr < Formula
   desc "Architecture Decision Records management using git notes"
   homepage "https://github.com/zircote/git-adr"
   license "MIT"
-  url "https://files.pythonhosted.org/packages/d2/3f/4fa52de25269d3472e17c7aab349e38d45361945c3152e0613f227bcfa34/git_adr-0.1.7.tar.gz"
-  sha256 "01fe76acd4a671ce204bd3e51bab0f88de01163a0b3be328c3c8ac884b7a5a60"
+  url "https://files.pythonhosted.org/packages/e1/9e/329f2a7ff1cf6b85e72828b71cb07396ad02954f18ff30d1645535733d5e/git_adr-0.2.0.tar.gz"
+  sha256 "a4426a9c3614c4738b137e7478c6da3d79f4e4ef9a92498a8a8352256965ebee"
 
   depends_on "libyaml"
   depends_on "python@3.12"
@@ -171,8 +171,8 @@ class GitAdr < Formula
   end
 
   resource "langsmith" do
-    url "https://files.pythonhosted.org/packages/61/71/d61524c3205bde7ec90423d997cf1a228d8adf2811110ec91ed40c8e8a34/langsmith-0.4.59.tar.gz"
-    sha256 "6b143214c2303dafb29ab12dcd05ac50bdfc60dac01c6e0450e50cee1d2415e0"
+    url "https://files.pythonhosted.org/packages/5f/7d/b60b4068f5725eed8e411a63f2bf7103a82871b798d22a99de5eb99eb0f7/langsmith-0.4.60.tar.gz"
+    sha256 "d057cd77806fb970387842353a49e631eef72f25da60b70137ed511d805fdecd"
   end
 
   resource "orjson" do
