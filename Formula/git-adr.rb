@@ -4,13 +4,11 @@ class GitAdr < Formula
   desc "Architecture Decision Records management using git notes"
   homepage "https://github.com/zircote/git-adr"
   license "MIT"
-  url "https://files.pythonhosted.org/packages/6b/03/2fe2bc8c26dfe8123029f5dd94d344970d00fa2ebbea7120b07876641bbd/git_adr-0.1.5.tar.gz"
-  sha256 "8381d0b232b56d673b467d532f3871d0fb1436af24016422ec6a9df901be4ded"
+  url "https://files.pythonhosted.org/packages/d2/3f/4fa52de25269d3472e17c7aab349e38d45361945c3152e0613f227bcfa34/git_adr-0.1.7.tar.gz"
+  sha256 "01fe76acd4a671ce204bd3e51bab0f88de01163a0b3be328c3c8ac884b7a5a60"
 
-  depends_on "libsodium"  # Required to build PyNaCl
   depends_on "libyaml"
   depends_on "python@3.12"
-  depends_on "rust" => :build  # Required to build tiktoken
 
   resource "click" do
     url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
@@ -67,11 +65,6 @@ class GitAdr < Formula
     sha256 "0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"
   end
 
-  resource "typing-inspection" do
-    url "https://files.pythonhosted.org/packages/55/e3/70399cb7dd41c10ac53367ae42139cf4b1ca5f36bb3dc6c9d33acdb43655/typing_inspection-0.4.2.tar.gz"
-    sha256 "ba561c48a67c5958007083d386c3295464928b01faa735ab8547c5692e87f464"
-  end
-
   resource "langchain-core" do
     url "https://files.pythonhosted.org/packages/f5/a0/2177f4ef4dfbea8edeba377b7b4889d177b8356ce186640e4651b240fd4d/langchain_core-1.2.1.tar.gz"
     sha256 "131e6ad105b47ec2adc4d4d973f569276688f48cd890ba44603d48e76d9993ce"
@@ -108,8 +101,8 @@ class GitAdr < Formula
   end
 
   resource "google-generativeai" do
-    url "https://github.com/google/generative-ai-python/archive/refs/tags/v0.8.5.tar.gz"
-    sha256 "2baa9b7cda3df8d9ca609b0eeac404e697bf0d046294becc5d90aa5b30c4c272"
+    url ""
+    sha256 ""
   end
 
   resource "tiktoken" do
@@ -238,8 +231,8 @@ class GitAdr < Formula
   end
 
   resource "proto-plus" do
-    url "https://files.pythonhosted.org/packages/f4/ac/87285f15f7cce6d4a008f33f1757fb5a13611ea8914eb58c3d0d26243468/proto_plus-1.26.1.tar.gz"
-    sha256 "21a515a4c4c0088a773899e23c7bbade3d18f9c66c73edd4c7ee3816bc96a012"
+    url "https://files.pythonhosted.org/packages/01/89/9cbe2f4bba860e149108b683bc2efec21f14d5f7ed6e25562ad86acbc373/proto_plus-1.27.0.tar.gz"
+    sha256 "873af56dd0d7e91836aee871e5799e1c6f1bda86ac9a983e0bb9f0c266a568c4"
   end
 
   resource "protobuf" do
