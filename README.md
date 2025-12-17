@@ -1,21 +1,27 @@
-# Homebrew Tap for git-adr
+# zircote Homebrew Tap
 
-This is the official [Homebrew](https://brew.sh/) tap for [git-adr](https://github.com/zircote/git-adr), a tool for managing Architecture Decision Records using git notes.
+Official [Homebrew](https://brew.sh/) tap for zircote projects.
+
+## Available Formulae
+
+| Formula | Description |
+|---------|-------------|
+| [git-adr](https://github.com/zircote/git-adr) | Architecture Decision Records management using git notes |
 
 ## Installation
 
 ```bash
 # Add this tap
-brew tap zircote/git-adr
+brew tap zircote/tap
 
-# Install git-adr
+# Install a formula
 brew install git-adr
 ```
 
 Or install directly:
 
 ```bash
-brew install zircote/git-adr/git-adr
+brew install zircote/tap/git-adr
 ```
 
 ## Updating
@@ -29,7 +35,7 @@ brew upgrade git-adr
 
 ```bash
 brew uninstall git-adr
-brew untap zircote/git-adr
+brew untap zircote/tap
 ```
 
 ## Post-Installation
@@ -55,6 +61,6 @@ Learn more at [github.com/zircote/git-adr](https://github.com/zircote/git-adr)
 
 ## Issues
 
-For issues with the formula, please open an issue in this repository.
+For issues with a formula (installation, updates), please open an issue in this repository.
 
-For issues with git-adr itself, please open an issue at [zircote/git-adr](https://github.com/zircote/git-adr/issues).
+For issues with the tools themselves, please open an issue in the respective project repository.
