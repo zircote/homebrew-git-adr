@@ -100,9 +100,9 @@ class GitAdr < Formula
     sha256 "e8607422f4ab616db2ea5baacc215dd5f028da99ce2f022e33c7c535b29f3dfb"
   end
 
-  resource "google-generativeai" do
-    url ""
-    sha256 ""
+  resource "google-genai" do
+    url "https://files.pythonhosted.org/packages/70/ad/d3ac5a102135bd3f1e4b1475ca65d2bd4bcc22eb2e9348ac40fe3fadb1d6/google_genai-1.56.0.tar.gz"
+    sha256 "0491af33c375f099777ae207d9621f044e27091fafad4c50e617eba32165e82f"
   end
 
   resource "tiktoken" do
