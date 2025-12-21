@@ -4,8 +4,8 @@ class GitAdr < Formula
   desc "Architecture Decision Records management using git notes"
   homepage "https://github.com/zircote/git-adr"
   license "MIT"
-  url "https://files.pythonhosted.org/packages/27/45/ee8d71623ad5455d1eb53417035f1db5d01d28aa12db375585f3f80b7a60/git_adr-0.2.3.tar.gz"
-  sha256 "806087190eadfbad9dd6d4fd7e97f2296b5c7b2a42ebc07a28cdfc8939d72888"
+  url "https://files.pythonhosted.org/packages/2f/ce/b2994e90b011e5d4a0148d6490934a4d48805d291e94607620bb6a0c1b53/git_adr-0.2.4.tar.gz"
+  sha256 "ece3a1ba221c49c867f5d537f82ea30407132bbe6b6e9ea27c7e7bcb1a37b9c1"
 
   depends_on "libyaml"
   depends_on "python@3.12"
@@ -56,8 +56,8 @@ class GitAdr < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/8f/28/7c85c8032b91dbe79725b6f17d2fffc595dff06a35c7a30a37bef73a1ab4/typer-0.20.0.tar.gz"
-    sha256 "1aaf6494031793e4876fb0bacfa6a912b551cf43c1e63c800df8b1a866720c37"
+    url "https://files.pythonhosted.org/packages/6d/c1/933d30fd7a123ed981e2a1eedafceab63cb379db0402e438a13bc51bbb15/typer-0.20.1.tar.gz"
+    sha256 "68585eb1b01203689c4199bc440d6be616f0851e9f0eb41e4a778845c5a0fd5b"
   end
 
   resource "typing-extensions" do
@@ -66,8 +66,8 @@ class GitAdr < Formula
   end
 
   resource "langchain-core" do
-    url "https://files.pythonhosted.org/packages/70/45/3d63fd7dc873abd9a0b1960775554dcc2a45dd4905937ec0b3d101dd5f10/langchain_core-1.2.2.tar.gz"
-    sha256 "3f9c28ec6d0fe47636d28b19799794458d55da81f37309832b2b9d11c93c5e95"
+    url "https://files.pythonhosted.org/packages/8a/1d/d6de541e14c508a6bf68ccb78e0c86e7e9eaf698595847d89381795268fe/langchain_core-1.2.4.tar.gz"
+    sha256 "1e01c06f98b9904af0de39d2a290d11b4c4e07888dacbbf4bdc7cef259f5a80e"
   end
 
   resource "langchain-openai" do
@@ -81,8 +81,8 @@ class GitAdr < Formula
   end
 
   resource "langchain-google-genai" do
-    url "https://files.pythonhosted.org/packages/49/05/3ffc616cb7f74d5c5f95ded8d92c4a259cbd39740d8dbbad767a3d61cd1f/langchain_google_genai-4.1.1.tar.gz"
-    sha256 "8278827d34dac5c5c01aa0fdf602654781d03fe82266f88aeb6863e4ff723b8d"
+    url "https://files.pythonhosted.org/packages/2e/04/c8d2840d96f05485abeb5288bd88ec8c5fb7a24065968201fa54969a47d8/langchain_google_genai-4.1.2.tar.gz"
+    sha256 "aa0dd7807a9a15651d10cd228c574f23fe46e2ce62921bf21d73a63869ecd814"
   end
 
   resource "langchain-ollama" do
@@ -91,8 +91,8 @@ class GitAdr < Formula
   end
 
   resource "openai" do
-    url "https://files.pythonhosted.org/packages/0f/39/8e347e9fda125324d253084bb1b82407e5e3c7777a03dc398f79b2d95626/openai-2.13.0.tar.gz"
-    sha256 "9ff633b07a19469ec476b1e2b5b26c5ef700886524a7a72f65e6f0b5203142d5"
+    url "https://files.pythonhosted.org/packages/d8/b1/12fe1c196bea326261718eb037307c1c1fe1dedc2d2d4de777df822e6238/openai-2.14.0.tar.gz"
+    sha256 "419357bedde9402d23bf8f2ee372fca1985a73348debba94bddff06f19459952"
   end
 
   resource "anthropic" do
